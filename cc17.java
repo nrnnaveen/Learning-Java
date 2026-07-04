@@ -1,2 +1,13 @@
-// print 2 table using for loop 3:30
+// print 2 table using for loop 
+class demo{
+    public static void main (String args[])
+    {
+        for (int i=1;i<=10;i=i+1){
+           
+            System.out.println(i+" * 2 = "+(i*2));
+            
+        }
+    
+    }
+}
 
