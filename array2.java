@@ -1,4 +1,4 @@
-// 3:18
+// array
 class demo{
     public static void main (String args[])
     {
@@ -7,3 +7,4 @@ class demo{
 
         
     }
+
