@@ -1,10 +1,14 @@
-// generate random number  3:55
+// generate random number
 import java.util.Random;
 class demo{
     public static void main (String args[])
     {
-        Random rand = new Random(10);
-        int newnum=rand.nextInt();
-        System.out.println(newnum);
+        Random rand = new Random();
+        int newnum = 0;
+        while (newnum!=5) {
+            
+            newnum=rand.nextInt(100);
+            System.out.println(newnum);
+        }
     }
 }
